@@ -2,7 +2,7 @@
 
 > Uma landing page responsiva e estilizada destacando os principais pontos turísticos da cidade de **Busan, Coreia do Sul** 🇰🇷
 
-![Image](https://github.com/user-attachments/assets/a6d3b61d-adc4-4804-954d-4723b223b622)
+![Image](https://github.com/user-attachments/assets/21f26bea-0086-440f-95df-959033dad3d6)
 
 ---
 
