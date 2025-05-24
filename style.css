@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
   --cor-00: #29292E; 
   --cor-01: #333;
@@ -22,7 +28,6 @@ body {
 
 #page {
   background-color: var(--cor-09);
-  box-sizing: border-box;
   padding: 88px 80px 48px 80px;
   display: flex;
   flex-direction: column;
@@ -32,16 +37,130 @@ body {
   height: auto;
 }
 
+h1, h2, h3 {
+  color: var(--cor-02);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+h1 { 
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 20px 0 4px 0;
+  text-indent: 0.4em;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.subtitulo-headline,
+.good-for,
+.inline-item,
+.custom-list,
+.personalizacao-paragrafo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitulo-headline {
+  color: var(--cor-05);
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.inline-item {
+  color: var(--cor-03);
+  display: block;
+}
+
+.personalizacao-paragrafo{
+  margin-top: 4px;
+  color: var(--cor-01);
+  font-weight: 400;
+}
+
+.purple-item {
+  color: var(--cor-06);
+}
+
+.pink-item {
+  color: var(--cor-07);
+}
+
+.orange-item {
+  color: var(--cor-08);
+}
+
 img {
-    border-radius: 28px;
-    width: 100%;
+  border-radius: 28px;
+  width: 100%;
+}
+
+#destinations .img1 {
+  margin-top: 64px;
+}
+
+#destinations .img2 {
+  margin-top: 48px;
+}
+
+#destinations .img3 {
+  margin-top: 48px;
+}
+
+
+section + section {
+  margin-top: 64px;
+}
+
+#about {
+  margin: 0 0 40px 0;
+}
+
+#about img {
+  margin: 0 0 24px 0;
+}
+
+#about p {
+  color: var(--cor-01);
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#destinations {
+  margin: 40px 0;
+}
+
+.divisor1 {
+  margin: 40px 0 64px 0;
+}
+
+.divisor2 {
+  margin: 40px 0 40px 0;
 }
 
 footer {
-    text-align: center;
-    padding-bottom: 48px;
+  text-align: center;
+  gap: 65px;
+  margin-bottom: 48px;
 }
 
 footer svg {
-    vertical-align: middle;
+  vertical-align: middle;
 }
