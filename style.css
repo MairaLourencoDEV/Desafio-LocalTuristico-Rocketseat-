@@ -1,27 +1,47 @@
+:root {
+  --cor-00: #29292E; 
+  --cor-01: #333;
+  --cor-02: #1b1b1b; 
+  --cor-03: #0c51a7; 
+  --cor-04: #d9d9d9;
+  --cor-05: #e1624f;
+  --cor-06: #591B98;
+  --cor-07: #E5245E;
+  --cor-08: #E95E10;
+  --cor-09: #F5F4F0;
+}
 
 body {
-    background-color: #29292E;
-    background-size: cover;
-    width: 1440px;
-    height: 3439px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--cor-00);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 #page {
-    background-color: #f5f4f0;
-    box-sizing: border-box;
-    padding: 88px 80px 48px 80px;
-    background-position: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 1280px;
-    height: 3279px;
-    gap: 65px;
+  background-color: var(--cor-09);
+  box-sizing: border-box;
+  padding: 88px 80px 48px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  width: 1280px;
+  max-width: 100%; 
+  height: auto;
 }
 
 img {
     border-radius: 28px;
     width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer svg {
+    vertical-align: middle;
 }
